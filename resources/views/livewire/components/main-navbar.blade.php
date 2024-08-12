@@ -1,18 +1,22 @@
 <!-- Navbar -->
 <nav class="bg-white shadow-md p-4 flex justify-between items-center border-b border-gray-200 h-16">
     <div class="flex items-center">
+        <!-- Mobile menu button -->
         <button class="text-gray-600 focus:outline-none lg:hidden">
             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
         </button>
+        <!-- Dashboard title -->
         <h1 class="text-xl font-semibold ml-4">
             {{ __('Dashboard') }}
         </h1>
     </div>
+
     <div class="flex items-center space-x-4">
+        <!-- Notifications button -->
         <div class="relative">
-            <button class="flex items-center text-gray-600">
+            <button class="flex items-center text-gray-600 focus:outline-none">
                 <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -20,12 +24,16 @@
                 </svg>
             </button>
             <!-- Notification dropdown -->
+            <!-- Aquí podrías agregar el dropdown de notificaciones -->
         </div>
+
+        <!-- User profile dropdown -->
         <div class="relative">
-            <button class="flex items-center text-gray-600">
+            <button class="flex items-center text-gray-600 focus:outline-none">
                 <img src="{{ Avatar::create('César')->toBase64() }}" alt="User Avatar" class="w-10 h-10 rounded-full">
             </button>
             <!-- User dropdown -->
+            <!-- Aquí podrías agregar el dropdown del usuario -->
         </div>
     </div>
 </nav>

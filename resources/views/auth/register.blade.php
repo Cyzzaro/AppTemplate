@@ -72,7 +72,7 @@
             </div>
             <div class="bg-gray-50 px-6 py-4 border-t">
                 <p class="text-sm text-gray-600 text-center">
-                    {{ __("Do you have an account?") }}
+                    {{ __('Do you have an account?') }}
                     <a href="{{ route('login') }}" class="text-blue-600 font-medium hover:text-blue-500">
                         {{ __('Login') }}
                     </a>

@@ -41,22 +41,24 @@
 
                     <div class="mb-6 flex items-center justify-between">
                         <div class="flex items-center">
-                            <input class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" type="checkbox" name="remember" id="remember"
-                                {{ old('remember') ? 'checked' : '' }}>
+                            <input class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" type="checkbox"
+                                name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                             <label class="ml-2 block text-sm text-gray-700" for="remember">
                                 {{ __('Remember Me') }}
                             </label>
                         </div>
 
                         @if (Route::has('password.request'))
-                            <a class="text-sm font-medium text-blue-600 hover:text-blue-500" href="{{ route('password.request') }}">
+                            <a class="text-sm font-medium text-blue-600 hover:text-blue-500"
+                                href="{{ route('password.request') }}">
                                 {{ __('Forgot Your Password?') }}
                             </a>
                         @endif
                     </div>
 
                     <div>
-                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                        <button type="submit"
+                            class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                             {{ __('Login') }}
                         </button>
                     </div>

@@ -4,21 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{{ Avatar::create(config('app.name', 'Laravel'))->toBase64() }}">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-
-    <!-- Heroicons -->
-    <link rel="stylesheet" href="https://unpkg.com/heroicons@1.0.6/dist/heroicons.css">
-
     <!-- Scripts -->
     @livewireStyles
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.0.6/dist/cdn.min.js"></script>
 
 </head>
 
@@ -30,7 +26,7 @@
         <div class="flex-1 flex flex-col">
 
             <!-- Content -->
-            <main class="flex-1 p-6">
+            <main class="flex-1">
                 @yield('content')
             </main>
         </div>

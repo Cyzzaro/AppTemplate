@@ -162,8 +162,7 @@
     "Railgun Error": "Error de cañón de riel",
     "Range Not Satisfiable": "Rango no satisfactorio",
     "Record": "Registro",
-    "Regards,": "Saludos,",
-    "Regards": "Saludos,",
+    "Regards": "Saludos",
     "Register": "Registrarse",
     "Remember Me": "Mantener sesión activa",
     "Request Header Fields Too Large": "Campos de encabezado de solicitud demasiado grandes",
@@ -244,5 +243,8 @@
     "You are receiving this email because we received a password reset request for your account.": "Ha recibido este mensaje porque se solicitó un restablecimiento de contraseña para su cuenta.",
     "Don't have an account?": "¿Aún no tiene una cuenta?",
     "Do you have an account?": "¿Ya tiene una cuenta?",
-    "Come back": "Volver"
+    "Come back": "Volver",
+    "Welcome": "¡Bienvenido!",
+    "We are glad to have you back. Ready to start?": "Estamos contentos de tenerte de vuelta. ¿Listo para empezar?",
+    "Continue to Dashboard": "Continuar al Panel"
 }
