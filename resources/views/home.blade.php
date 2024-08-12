@@ -75,5 +75,11 @@
                 </div>
             </div>
         </div>
+
+        <h2 class="text-2xl font-semibold text-gray-800 mb-6 py-6">{{ __('Auditing') }}</h2>
+
+        <!-- Grid de Cards -->
+        <livewire:audit-log />
+
     </div>
 @endsection
