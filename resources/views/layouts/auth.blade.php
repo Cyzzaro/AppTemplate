@@ -26,18 +26,8 @@
 
     <div class="flex h-screen">
 
-        @guest
-        @else
-            @livewire('components.mainsidebar')
-        @endguest
-
         <!-- Main Content -->
         <div class="flex-1 flex flex-col">
-
-            @guest
-            @else
-                @livewire('components.mainnavbar')
-            @endguest
 
             <!-- Content -->
             <main class="flex-1 p-6">
