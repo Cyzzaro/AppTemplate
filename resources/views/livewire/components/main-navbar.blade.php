@@ -26,14 +26,5 @@
             <!-- Notification dropdown -->
             <!-- Aquí podrías agregar el dropdown de notificaciones -->
         </div>
-
-        <!-- User profile dropdown -->
-        <div class="relative">
-            <button class="flex items-center text-gray-600 focus:outline-none">
-                <img src="{{ Avatar::create('César')->toBase64() }}" alt="User Avatar" class="w-10 h-10 rounded-full">
-            </button>
-            <!-- User dropdown -->
-            <!-- Aquí podrías agregar el dropdown del usuario -->
-        </div>
     </div>
 </nav>
